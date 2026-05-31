@@ -8,7 +8,7 @@ const CLIENT_ID = 1510580274885427220;
 const CLIENT_SECRET = eZlimf3ahAOTAZ7RFO7c6eqJP-gMS5i0;
 
 // ⚠️ This must match your Render URL later
-const REDIRECT_URI = https://mythogfn.mysellauth.com/discord/callback;
+const REDIRECT_URI = https:mythogfn.mysellauth.com/discord/callback;
 
 app.get("/callback", async (req, res) => {
   const code = req.query.code;
